@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node-unpack' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose read json /Users/mmejia/germon/package.json
+5 verbose read json /Users/mmejia/germon/node_modules/backbone/package.json
+6 verbose read json /Users/mmejia/germon/node_modules/binary/package.json
+7 verbose read json /Users/mmejia/germon/node_modules/bufferpack/package.json
+8 verbose read json /Users/mmejia/germon/node_modules/express/package.json
+9 verbose read json /Users/mmejia/germon/node_modules/mikronode/package.json
+10 verbose read json /Users/mmejia/germon/node_modules/mongodb/package.json
+11 verbose read json /Users/mmejia/germon/node_modules/snmp-native/package.json
+12 verbose read json /Users/mmejia/germon/node_modules/socket.io/package.json
+13 verbose read json /Users/mmejia/germon/node_modules/underscore/package.json
+14 verbose from cache /Users/mmejia/germon/package.json
+15 verbose readDependencies using package.json deps
+16 verbose cache add [ 'node-unpack', null ]
+17 verbose cache add name=undefined spec="node-unpack" args=["node-unpack",null]
+18 verbose parsed url { pathname: 'node-unpack',
+18 verbose parsed url   path: 'node-unpack',
+18 verbose parsed url   href: 'node-unpack' }
+19 silly lockFile b1e7d1d0-node-unpack node-unpack
+20 verbose lock node-unpack /Users/mmejia/.npm/b1e7d1d0-node-unpack.lock
+21 silly lockFile b1e7d1d0-node-unpack node-unpack
+22 silly lockFile b1e7d1d0-node-unpack node-unpack
+23 verbose addNamed [ 'node-unpack', '' ]
+24 verbose addNamed [ null, '' ]
+25 silly lockFile a2f72f12-node-unpack node-unpack@
+26 verbose lock node-unpack@ /Users/mmejia/.npm/a2f72f12-node-unpack.lock
+27 silly addNameRange { name: 'node-unpack', range: '', hasData: false }
+28 verbose url raw node-unpack
+29 verbose url resolving [ 'https://registry.npmjs.org/', './node-unpack' ]
+30 verbose url resolved https://registry.npmjs.org/node-unpack
+31 info trying registry request attempt 1 at 22:02:57
+32 http GET https://registry.npmjs.org/node-unpack
+33 http 404 https://registry.npmjs.org/node-unpack
+34 silly registry.get cb [ 404,
+34 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+34 silly registry.get     date: 'Fri, 12 Apr 2013 03:02:57 GMT',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'cache-control': 'must-revalidate' } ]
+35 silly lockFile a2f72f12-node-unpack node-unpack@
+36 silly lockFile a2f72f12-node-unpack node-unpack@
+37 error 404 'node-unpack' is not in the npm registry.
+37 error 404 You should bug the author to publish it
+37 error 404
+37 error 404 Maybe try 'npm search unpack'
+37 error 404
+37 error 404 Note that you can also install from a
+37 error 404 tarball, folder, or http url, or git url.
+38 error System Darwin 11.4.2
+39 error command "node" "/usr/local/bin/npm" "install" "node-unpack"
+40 error cwd /Users/mmejia/germon
+41 error node -v v0.8.20
+42 error npm -v 1.2.11
+43 error code E404
+44 verbose exit [ 1, true ]
